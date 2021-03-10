@@ -13,6 +13,7 @@ app.get('/api',(req, res) => {
     });
 });
 
+// Post to Validate the API with jwt token
 app.post('/api/validate',verifyToken,(req, res)=>{
     jwt.verify(req.token,'secretkey',(err,authData)=>{
         if(err){
@@ -25,6 +26,8 @@ app.post('/api/validate',verifyToken,(req, res)=>{
         }
     });
 });
+
+// TO access the token
 app.post('/api/Login',(req, res) => {
     //Mock user
     const user ={
