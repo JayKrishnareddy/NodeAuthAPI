@@ -12,3 +12,7 @@ If you want more about this, Do check out my Article 👇🏻
 
 [**Medium**](https://javascript.plainenglish.io/node-js-api-authentication-with-json-web-tokens-bb511f603723 "Medium")
 
+[**Hashnode**](https://jaykrishnareddy.hashnode.dev/nodejs-api-authentication-with-json-web-tokens "Hashnode")
+
+
+
